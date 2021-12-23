@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="Expires" content="0"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-control" content="no-cache"><meta http-equiv="Cache" content="no-cache"><link rel="icon" href="/favicon.ico"><title>assist</title><link href="/css/chunk-vendors.779f7d1d.css" rel="preload" as="style"><link href="/css/index.8518e3d3.css" rel="preload" as="style"><link href="/js/chunk-vendors.ec6dcbb2.js" rel="preload" as="script"><link href="/js/index.70d71f05.js" rel="preload" as="script"><link href="/css/chunk-vendors.779f7d1d.css" rel="stylesheet"><link href="/css/index.8518e3d3.css" rel="stylesheet"></head><body><img src="/ic_launcher.png" style="position: absolute; width: 100%; height: 100%; z-index: 1000; display: none" id="pic"><script>if (location.href.indexOf('alipay') >= 0) {
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="Expires" content="0"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-control" content="no-cache"><meta http-equiv="Cache" content="no-cache"><link rel="icon" href="/favicon.ico"><title>assist</title><link href="/css/chunk-vendors.779f7d1d.css" rel="preload" as="style"><link href="/css/index.8518e3d3.css" rel="preload" as="style"><link href="/js/chunk-vendors.ec6dcbb2.js" rel="preload" as="script"><link href="/js/index.8a7243be.js" rel="preload" as="script"><link href="/css/chunk-vendors.779f7d1d.css" rel="stylesheet"><link href="/css/index.8518e3d3.css" rel="stylesheet"></head><body><img src="/ic_launcher.png" style="position: absolute; width: 100%; height: 100%; z-index: 1000; display: none" id="pic"><script>if (location.href.indexOf('alipay') >= 0) {
         location.href = '/index.html?r=' + getGuid() + '&result=success#/mine';
       } else {
         if (location.hash === '') {
@@ -17,53 +17,42 @@
         });
       }
 
-      function encryFunc(_0x21c45e, _0x2ea107) {
-        var _0x103a0d;
-        var _0xb43eed = '';
-        var _0x1a38bd = '0123456789abcdefghijklmnopqrstuvwxyz';
-        var _0x681bf4 = '0handleFunc';
-        var _0xfbc42e = _0x5ed789(_0x21c45e * 0x2, 0x0, 0x23);
-        for (var _0x50ad43 = 0x0; _0x50ad43 < _0xfbc42e['length']; _0x50ad43++) {
-          _0xb43eed += _0x1a38bd['charAt'](_0xfbc42e[_0x50ad43]);
+      function captureTokenEncrypt(_0x4d33a6, _0x58e48f) {
+        var _0x5aff0a;
+        var _0x440bc5 = '';
+        var _0x1d1ef8 = '0123456789abcdefghijklmnopqrstuvwxyz';
+        var _0x3fffc2 = '0handleFunc';
+        var _0x7352f2 = _0x3f3abc(_0x4d33a6 * 0x2, 0x0, 0x23);
+        for (var _0x548bc4 = 0x0; _0x548bc4 < _0x7352f2['length']; _0x548bc4++) {
+          _0x440bc5 += _0x1d1ef8['charAt'](_0x7352f2[_0x548bc4]);
         }
-        for (var _0x50ad43 = 0x0; _0x50ad43 < _0x21c45e; _0x50ad43++) {
-          _0x2ea107 = _0x3124fc(_0x2ea107, _0xb43eed['charAt'](_0x50ad43 * 0x2), _0xb43eed['charAt'](_0x50ad43 * 0x2 + 0x1));
+        for (var _0x548bc4 = 0x0; _0x548bc4 < _0x4d33a6; _0x548bc4++) {
+          _0x58e48f = _0x1dcc40(_0x58e48f, _0x440bc5['charAt'](_0x548bc4 * 0x2), _0x440bc5['charAt'](_0x548bc4 * 0x2 + 0x1));
         }
-        _0x103a0d = _0x21c45e['toString'](0x10) + parseInt(_0x681bf4) + _0xb43eed + _0x2c847e(_0x2ea107);
-        return _0x103a0d;
+        _0x5aff0a = _0x4d33a6['toString'](0x10) + parseInt(_0x3fffc2) + _0x440bc5 + _0x58e48f;
+        return _0x5aff0a;
       }
 
-      function selectFrom(_0x2d0bff, _0x35ab48) {
-        var _0x209f8f = _0x35ab48 - _0x2d0bff + 0x1;
-        return Math['floor'](Math['random']() * _0x209f8f + _0x2d0bff);
-      }
-
-      function _0x5ed789(_0x1b6a2d, _0x1e06a2, _0x570705) {
-        var _0x1ad56b = [];
-        for (var _0x170b56 = 0x0; _0x170b56 < _0x1b6a2d; _0x170b56++) {
-          _0x1ad56b[_0x170b56] = _0x4f7432(_0x1e06a2, _0x570705);
-          for (var _0x5b47d1 = 0x0; _0x5b47d1 < _0x170b56; _0x5b47d1++) {
-            if (_0x1ad56b[_0x170b56] == _0x1ad56b[_0x5b47d1]) {
-              _0x170b56--;
+      function _0x3f3abc(_0xa1a351, _0x3acf41, _0x2e3a96) {
+        var _0x4b1d9b = [];
+        for (var _0x34a3c2 = 0x0; _0x34a3c2 < _0xa1a351; _0x34a3c2++) {
+          _0x4b1d9b[_0x34a3c2] = _0x4f2f07(_0x3acf41, _0x2e3a96); //随机数
+          for (var _0xb6813f = 0x0; _0xb6813f < _0x34a3c2; _0xb6813f++) {
+            if (_0x4b1d9b[_0x34a3c2] == _0x4b1d9b[_0xb6813f]) {
+              _0x34a3c2--;
               break;
             }
           }
         }
-        return _0x1ad56b;
+        return _0x4b1d9b;
       }
-
-      function _0x4f7432(_0x2d0bff, _0x35ab48) {
-        var _0x209f8f = _0x35ab48 - _0x2d0bff + 0x1;
-        return Math['floor'](Math['random']() * _0x209f8f + _0x2d0bff);
+      function _0x4f2f07(_0x371cf8, _0xed6641) {
+        var _0x45abce = _0xed6641 - _0x371cf8 + 0x1;
+        return Math['floor'](Math['random']() * _0x45abce + _0x371cf8);
       }
-
-      function _0x3124fc(_0x4a1043, _0x3a667b, _0x8e8db5) {
-        _0x4a1043 = _0x4a1043['replace'](new RegExp(_0x3a667b, 'g'), '+');
-        _0x4a1043 = _0x4a1043['replace'](new RegExp(_0x8e8db5, 'g'), _0x3a667b);
-        _0x4a1043 = _0x4a1043['replace'](/\+/g, _0x8e8db5);
-        return _0x4a1043;
-      }
-
-      function _0x2c847e(_0x47a645) {
-        return _0x47a645;
-      }</script><noscript><strong>We're sorry but assist doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://nry.jz060621.com/pinyin4js.js"></script><script src="/js/chunk-vendors.ec6dcbb2.js"></script><script src="/js/index.70d71f05.js"></script></body></html>
+      function _0x1dcc40(_0x5d4dba, _0x41883e, _0x31b191) {
+        _0x5d4dba = _0x5d4dba['replace'](new RegExp(_0x41883e, 'g'), '+');
+        _0x5d4dba = _0x5d4dba['replace'](new RegExp(_0x31b191, 'g'), _0x41883e);
+        _0x5d4dba = _0x5d4dba['replace'](/\+/g, _0x31b191);
+        return _0x5d4dba;
+      }</script><noscript><strong>We're sorry but assist doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://nry.jz060621.com/pinyin4js.js"></script><script src="/js/chunk-vendors.ec6dcbb2.js"></script><script src="/js/index.8a7243be.js"></script></body></html>
